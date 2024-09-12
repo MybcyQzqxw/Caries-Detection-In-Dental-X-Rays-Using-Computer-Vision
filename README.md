@@ -5,7 +5,7 @@ Welcome to the Caries Detection project! This project leverages machine learning
 ## 🚀 Project Overview
 
 ### Motivation
-AThis project was inspired by a personal experience where multiple dental opinions were needed to make the right decision regarding a tooth cavity. My goal is to provide a tool that assists dentists in making better, data-driven decisions through the use of AI and collective wisdom. This AI model helps analyze dental x-rays, identifying potential cavities and evaluating the extent of decay.
+This project was inspired by a personal experience where multiple dental opinions were needed to make the right decision regarding a tooth cavity. My goal is to provide a tool that assists dentists in making better, data-driven decisions through the use of AI and collective wisdom. This AI model helps analyze dental x-rays, identifying potential cavities and evaluating the extent of decay.
 
 The next phase of development will focus on segmenting the affected areas to better assess the extent of the damage, providing more detailed information to assist in treatment planning.
 
