@@ -4,7 +4,7 @@ Welcome to the Caries Detection project! This project leverages machine learning
 
 🌐 [Try the Deployed App on Hugging Face](https://sabagul-caries-detection-from-x-rays.hf.space)
 
-<img src="result.png" alt="Logo" width="400" />
+<img src="result.png" alt="Logo" width="700" />
 
 ## 🚀 Project Overview
 
