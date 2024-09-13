@@ -2,6 +2,10 @@
 
 Welcome to the Caries Detection project! This project leverages machine learning and computer vision to assist dentists in diagnosing tooth cavities (caries) using dental x-ray images. The model is designed to help localizie the extent of tooth decay and, in future versions, provide more precise segmentation of affected areas.
 
+🌐 [Try the Deployed App on Hugging Face](https://sabagul-caries-detection-from-x-rays.hf.space)
+
+<img src="result.png" alt="Logo" width="400" />
+
 ## 🚀 Project Overview
 
 ### Motivation
