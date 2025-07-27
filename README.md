@@ -46,30 +46,19 @@ The next phase of development will focus on segmenting the affected areas to bet
    cd Caries-Detection-In-Dental-X-Rays-Using-Computer-Vision
    ```
 
-2. **Install dependencies**:
+2. **Conda environment setup**:
    ```bash
+   conda create -n caries-detection python=3.10 -y
+   conda activate caries-detection
    pip install -r Caries-Detection/requirements.txt
    ```
 
 3. **Run the Gradio app**:
    ```bash
-   python Caries-Detection/app/gradio-app.py
-   ```
-
-4. **Docker (Optional)**:
-   If you'd prefer to run the app using Docker, simply:
-   ```bash
-   docker build -t caries-detection-app .
-   docker run -p 7860:7860 caries-detection-app
-   ```
-
-5. **Access the app**:
-   Open your browser and go to `http://localhost:7860` to interact with the AI-powered caries detection tool!
-
 ## 📝 Future Work
-- **Segmentation of caries**: The next step is to segment the decayed portion of the tooth to help dentists assess the extent of the damage.
-- **Model improvements**: Continue training the model to improve accuracy and expand the dataset.
-- **Refinement of the Gradio UI**: Enhance the user interface to provide more interactive and user-friendly features.
+- **Caries Segmentation**: The next step is to segment the decayed portion of the tooth to help dentists assess the extent of the damage.
+- **Model Improvements**: Continue training the model to improve accuracy and expand the dataset.
+- **Gradio UI Optimization**: Enhance the user interface to provide more interactive and user-friendly features.
 
 ## 👩‍💻 Contributions
 Contributions are welcome! Feel free to fork this repository and submit a pull request with improvements, bug fixes, or new features.
@@ -79,6 +68,16 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## 🤝 Support
 If you find this project useful, please give it a ⭐️!
+
+If you have any questions or suggestions, feel free to open an issue or contact us.
+
+---
+
+**Note**: This tool is for diagnostic assistance purposes only. Any treatment decisions should be made by qualified dental professionals.
+
+## 🌍 Language Support
+- [English](README.md)
+- [中文](README.zh-CN.md)
 
 If you have any questions or suggestions, feel free to open an issue or contact us.
 
