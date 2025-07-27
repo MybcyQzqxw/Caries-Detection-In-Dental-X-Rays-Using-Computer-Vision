@@ -75,4 +75,20 @@ The next phase of development will focus on segmenting the affected areas to bet
 ## 👩‍💻 Contributions
 Contributions are welcome! Feel free to fork this repository and submit a pull request with improvements, bug fixes, or new features.
 
+## 📄 License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## 🤝 Support
+If you find this project useful, please give it a ⭐️!
+
+If you have any questions or suggestions, feel free to open an issue or contact us.
+
+---
+
+**Note**: This tool is for diagnostic assistance purposes only. Any treatment decisions should be made by qualified dental professionals.
+
+## 🌍 Language Support
+- [English](README.md)
+- [中文](README.zh-CN.md)
+
 
