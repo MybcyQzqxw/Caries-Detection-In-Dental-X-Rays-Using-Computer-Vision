@@ -49,6 +49,8 @@
 2. **安装依赖**:
    确保您安装了Python 3.10或更高版本，然后运行：
    ```bash
+   conda create -n caries-detection python=3.10
+   conda activate caries-detection
    pip install -r Caries-Detection/requirements.txt
    ```
 
