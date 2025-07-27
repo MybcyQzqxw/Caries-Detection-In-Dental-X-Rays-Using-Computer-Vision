@@ -46,10 +46,9 @@
    cd Caries-Detection-In-Dental-X-Rays-Using-Computer-Vision
    ```
 
-2. **安装依赖**:
-   确保您安装了Python 3.10或更高版本，然后运行：
+2. **创建环境并安装依赖**:
    ```bash
-   conda create -n caries-detection python=3.10
+   conda create -n caries-detection python=3.10 -y
    conda activate caries-detection
    pip install -r Caries-Detection/requirements.txt
    ```
