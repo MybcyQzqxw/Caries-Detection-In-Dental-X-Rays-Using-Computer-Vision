@@ -58,16 +58,34 @@
    python Caries-Detection/app/gradio-app.py
    ```
 
-4. **Docker（可选）**:
-   如果您更喜欢使用Docker运行应用，只需：
-   ```bash
-   cd Caries-Detection
-   docker build -t caries-detection-app .
-   docker run -p 7860:7860 caries-detection-app
-   ```
-
-5. **访问应用**:
+4. **访问应用**:
    打开浏览器并访问 `http://localhost:7860` 与AI驱动的龋病检测工具进行交互！
+
+## 🔧 故障排除
+
+### 常见问题
+
+1. **模型文件路径错误**
+   ```
+   FileNotFoundError: [Errno 2] No such file or directory: '/app/data/best.pt'
+   ```
+   **解决方案**: 确保您在项目根目录运行应用，并且模型文件存在于 `Caries-Detection/data/best.pt`
+
+2. **Python环境问题**
+   ```
+   找不到命令 "python"
+   ```
+   **解决方案**: 使用 `python3` 或激活conda环境后再运行
+
+3. **依赖包缺失**
+   ```
+   ModuleNotFoundError: No module named 'ultralytics'
+   ```
+   **解决方案**: 确保激活了正确的conda环境并安装了所有依赖：
+   ```bash
+   conda activate caries-detection
+   pip install -r Caries-Detection/requirements.txt
+   ```
 
 ## 📝 未来工作
 - **龋病分割**: 下一步是分割牙齿的蛀蚀部分，以帮助牙医评估损坏程度。
