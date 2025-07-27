@@ -4,6 +4,9 @@ __pycache__/
 *$py.class
 *.so
 
+# 项目内部缓存文件
+Caries-Detection/app/__pycache__/
+
 # Environments
 .env
 .venv
@@ -26,7 +29,7 @@ Thumbs.db
 # Logs
 *.log
 
-# Cache
+# Cache - 这些应该被忽略！
 .cache/
 cache/
 
@@ -36,6 +39,6 @@ cache/
 temp/
 tmp/
 
-# Gradio
+# Gradio - 这些运行时产生的文件应该被忽略！
 gradio_cached_examples/
 flagged/
