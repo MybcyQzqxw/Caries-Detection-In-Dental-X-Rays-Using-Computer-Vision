@@ -40,18 +40,6 @@ The next phase of development will focus on segmenting the affected areas to bet
 
 ## 🖥 How to Run
 
-### Option 1: Quick Start (Recommended)
-```bash
-# Clone the repository
-git clone https://github.com/MybcyQzqxw/Caries-Detection-In-Dental-X-Rays-Using-Computer-Vision.git
-cd Caries-Detection-In-Dental-X-Rays-Using-Computer-Vision
-
-# Run the launch script (automatically creates environment and installs dependencies)
-./run_app.sh
-```
-
-### Option 2: Manual Installation
-
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/MybcyQzqxw/Caries-Detection-In-Dental-X-Rays-Using-Computer-Vision.git
@@ -60,18 +48,13 @@ cd Caries-Detection-In-Dental-X-Rays-Using-Computer-Vision
 
 2. **Install dependencies**:
    ```bash
-   conda create -n caries-detection python=3.10 -y
-   conda activate caries-detection
    pip install -r Caries-Detection/requirements.txt
    ```
 
 3. **Run the Gradio app**:
    ```bash
-   conda activate caries-detection
    python Caries-Detection/app/gradio-app.py
    ```
-
-### Option 3: Docker Deployment
 
 4. **Docker (Optional)**:
    If you'd prefer to run the app using Docker, simply:

@@ -30,9 +30,9 @@
 ├── app/
 │   ├── gradio-app.py      # 启动Gradio Web应用的主文件
 │   ├── model.py           # 模型加载和预测逻辑
-│   ├── predict.py         # 处理预测的函数
+│   └── predict.py         # 处理预测的函数
 ├── data/
-│   ├── best.pt            # 用于检测龋病的预训练YOLO模型
+│   └── best.pt            # 用于检测龋病的预训练YOLO模型
 ├── requirements.txt       # Python依赖项
 ├── Dockerfile             # Docker配置文件
 └── README.md              # 项目文档
@@ -46,10 +46,8 @@
    cd Caries-Detection-In-Dental-X-Rays-Using-Computer-Vision
    ```
 
-2. **创建环境并安装依赖**:
+2. **安装依赖**:
    ```bash
-   conda create -n caries-detection python=3.10 -y
-   conda activate caries-detection
    pip install -r Caries-Detection/requirements.txt
    ```
 
@@ -58,7 +56,15 @@
    python Caries-Detection/app/gradio-app.py
    ```
 
-4. **访问应用**:
+4. **Docker（可选）**:
+   如果您更喜欢使用Docker运行应用：
+   ```bash
+   cd Caries-Detection
+   docker build -t caries-detection-app .
+   docker run -p 7860:7860 caries-detection-app
+   ```
+
+5. **访问应用**:
    打开浏览器并访问 `http://localhost:7860` 与AI驱动的龋病检测工具进行交互！
 
 ## 🔧 故障排除
@@ -81,9 +87,8 @@
    ```
    ModuleNotFoundError: No module named 'ultralytics'
    ```
-   **解决方案**: 确保激活了正确的conda环境并安装了所有依赖：
+   **解决方案**: 确保安装了所有依赖：
    ```bash
-   conda activate caries-detection
    pip install -r Caries-Detection/requirements.txt
    ```
 
